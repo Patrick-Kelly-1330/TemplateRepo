@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + '/../client/dist'));
+console.log('DIR ', __dirname);
 
 app.post('/testing', (req, res) => {
 });
