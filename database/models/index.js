@@ -9,7 +9,7 @@ function main() {
   });
 
   // TODO: create relevant models
-  const Rsvp = mongoose.model('TestSchema', testSchema);
+  const Test = mongoose.model('TestSchema', testSchema);
 
   module.exports = Test;
 }
