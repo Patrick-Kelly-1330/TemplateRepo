@@ -11,7 +11,7 @@ function main() {
   // TODO: create relevant models
   const Rsvp = mongoose.model('TestSchema', testSchema);
 
-  module.exports = Rsvp;
+  module.exports = Test;
 }
 
 main();
